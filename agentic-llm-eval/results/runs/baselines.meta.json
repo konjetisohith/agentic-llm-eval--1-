@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-10-25T13:09:39.850318+00:00",
+  "commit": "no-git",
+  "dirty": false,
+  "python": "3.12.3",
+  "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39",
+  "machine": "x86_64",
+  "ollama_version": "n/a",
+  "config": {
+    "models": [],
+    "prune_configs": [
+      "none",
+      "topk:2"
+    ],
+    "options": {
+      "temperature": 0,
+      "seed": 42,
+      "num_ctx": 4096,
+      "num_predict": 300
+    },
+    "format": "json",
+    "agent": {
+      "max_turns": 6,
+      "max_repairs": 2
+    },
+    "data": {
+      "n_sst2": 100,
+      "n_squad": 200,
+      "squad_impossible_fraction": 0.5,
+      "n_tools": 40,
+      "seed": 42
+    },
+    "note": "baselines only (no LLM inference)"
+  },
+  "config_hash": "6619c12a1e31d159",
+  "data_hashes": {
+    "squad.jsonl": "f784d0842a76e598",
+    "sst2.jsonl": "37f20a329eadc12c",
+    "tools.jsonl": "cf3ac9e9b0f197e0"
+  }
+}

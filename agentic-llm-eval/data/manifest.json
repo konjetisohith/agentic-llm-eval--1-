@@ -1,0 +1,45 @@
+{
+  "created_utc": "2026-10-25T13:08:01.874438+00:00",
+  "seed": 42,
+  "source_mode": "github",
+  "sources": {
+    "sst2": {
+      "url": "https://raw.githubusercontent.com/YJiangcm/SST-2-sentiment-analysis/master/data/dev.tsv",
+      "sha256": "c9ddb67ce3068540c5bb6562e1f34788302dd06d570e6ca0d5e61f7d5ef2bfad",
+      "what": "SST-2 validation (standard 872-sentence binary split), third-party GitHub mirror",
+      "expect": {
+        "sentences": 872,
+        "positive": 444,
+        "negative": 428
+      }
+    },
+    "squad": {
+      "url": "https://raw.githubusercontent.com/rajpurkar/SQuAD-explorer/master/dataset/dev-v2.0.json",
+      "sha256": "80a5225e94905956a6446d296ca1093975c4d3b3260f1d6c8f68bc2ab77182d8",
+      "what": "SQuAD 2.0 dev (official file from the SQuAD authors' repository)",
+      "expect": {
+        "questions": 11873,
+        "unanswerable": 5945
+      }
+    },
+    "tools": "synthetic (build_tool_set)"
+  },
+  "population": {
+    "sst2_validation": 872,
+    "squad_v2_validation": 11873
+  },
+  "files": {
+    "sst2.jsonl": {
+      "n": 100,
+      "sha256": "37f20a329eadc12c9730a3b2a319369ff04975f798b26f3d616b0ab55be521c0"
+    },
+    "squad.jsonl": {
+      "n": 200,
+      "sha256": "f784d0842a76e598e54e033404dcc6912c400e64a0bcf90756104d33c5defea4"
+    },
+    "tools.jsonl": {
+      "n": 40,
+      "sha256": "cf3ac9e9b0f197e05dcc6773b86774e781b8098a275b187e97649d51130ace4f"
+    }
+  }
+}

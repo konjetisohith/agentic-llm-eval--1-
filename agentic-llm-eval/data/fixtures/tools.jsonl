@@ -1,0 +1,8 @@
+{"question": "A shop sells 60 pens at 23 cents each and 21 notebooks at 30 cents each. How many cents is the total?", "gold": "2010", "kind": "numeric", "tool_policy": "required", "reference_expression": "60 * 23 + 21 * 30", "id": "tool-0000"}
+{"question": "Write the word 'river' in capital letters.", "gold": "RIVER", "kind": "text", "tool_policy": "not_needed", "reference_expression": null, "id": "tool-0001"}
+{"question": "Write the word 'candle' in capital letters.", "gold": "CANDLE", "kind": "text", "tool_policy": "not_needed", "reference_expression": null, "id": "tool-0002"}
+{"question": "An item costs 707 dollars with a 25 percent discount. What is the final price in dollars?", "gold": "530.25", "kind": "numeric", "tool_policy": "required", "reference_expression": "707 * (1 - 25 / 100)", "id": "tool-0003"}
+{"question": "What is 583 multiplied by 767?", "gold": "447161", "kind": "numeric", "tool_policy": "required", "reference_expression": "583 * 767", "id": "tool-0004"}
+{"question": "What is 237 multiplied by 682?", "gold": "161634", "kind": "numeric", "tool_policy": "required", "reference_expression": "237 * 682", "id": "tool-0005"}
+{"question": "Which number is larger, 58 or 36?", "gold": "58", "kind": "numeric", "tool_policy": "not_needed", "reference_expression": null, "id": "tool-0006"}
+{"question": "Which number is larger, 72 or 13?", "gold": "72", "kind": "numeric", "tool_policy": "not_needed", "reference_expression": null, "id": "tool-0007"}

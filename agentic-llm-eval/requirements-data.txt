@@ -1,0 +1,2 @@
+# only needed for `python -m llm_eval.cli prepare` (downloads SST-2 and SQuAD 2.0 from Hugging Face)
+datasets>=2.19

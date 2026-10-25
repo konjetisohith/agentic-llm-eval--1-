@@ -1,0 +1,45 @@
+{
+  "created_utc": "2026-10-25T14:21:43.178855+00:00",
+  "commit": "no-git",
+  "dirty": false,
+  "python": "3.13.5",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "machine": "AMD64",
+  "ollama_version": "0.40.11",
+  "config": {
+    "models": [
+      "qwen2.5:3b",
+      "llama3.2:3b",
+      "qwen2.5-coder:3b"
+    ],
+    "prune_configs": [
+      "none",
+      "topk:2"
+    ],
+    "options": {
+      "temperature": 0,
+      "seed": 42,
+      "num_ctx": 4096,
+      "num_predict": 300
+    },
+    "format": "json",
+    "agent": {
+      "max_turns": 6,
+      "max_repairs": 2
+    },
+    "data": {
+      "n_sst2": 100,
+      "n_squad": 200,
+      "squad_impossible_fraction": 0.5,
+      "n_tools": 40,
+      "seed": 42
+    },
+    "limit": 10
+  },
+  "config_hash": "906ab1ac70b03166",
+  "data_hashes": {
+    "squad.jsonl": "f784d0842a76e598",
+    "sst2.jsonl": "37f20a329eadc12c",
+    "tools.jsonl": "cf3ac9e9b0f197e0"
+  }
+}
